@@ -26,7 +26,8 @@ En septiembre de 2013 se liberó como plataforma de código abierto, mantenida y
 
 ### *RASPBERRY Y GPIO*
 La Raspberry Pi fue creada en febrero del 2012 por la Raspberry Pi Foundation, originalmente pensado para promover y enseñar las ciencias básicas de la computación en las escuelas y universidades de Reino Unido. Originalmente lanzaron dos modelos, el Modelo A y el Modelo B. Al poco tiempo de su lanzamiento ya había una comunidad formada por miles de “locos por la tecnología” que compraron una Raspberry para empezar a experimentar con nuevos proyectos.
-# img rasp
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/rasp.png)
+
 
 ## 4. MARCO TEORIÓCO
 ### NODE-RED
@@ -35,7 +36,7 @@ Es una herramienta de código libre (Open Source) construida en Node.js y que se
 Node-RED es uno de los componentes clave de dicha arquitectura de solución. Como herramienta visual, facilita extraordinariamente la captura de eventos del mundo real, permite agregar cierto grado de inteligencia en nodos de tratamiento/transformación de datos y utilizar nodos especializados para integrar dichos eventos con todo tipo de sistemas de mensajería, como por ejemplo MQTT, AMQP o Apache Kafka. También es posible en plataformas sociales como Twitter o Facebook y sistemas de persistencia de datos como Bases de Datos Relacionales y NoSQL, como MongoDB y Redis. Todo ello se lleva a cabo con la finalidad de crear aplicaciones que puedan reaccionar de forma ágil y precisa ante el complejo mundo existente a su alrededor, y aportar la “materia prima elaborada” a los otros componentes de la arquitectura global de tratamiento de la información.
 
 La programación basada en flujos es una forma de describir el comportamiento de una aplicación como una red de cajas negras o "nodos", como se les llama en Node-RED. Cada nodo tiene un propósito bien definido: recibe o captura algunos datos, realiza algún tratamiento con esos datos y luego los pasa a uno o varios nodos con los que se enlaza. La red constituye la configuración de cómo estos nodos se interconectan entre sí y es responsable del mantenimiento del flujo de datos entre los nodos.
-# img nodos
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/nodos.png)
 
 ### PYTHON
 Es un lenguaje de scripting independiente de plataforma y orientado a objetos, preparado para realizar cualquier tipo de programa, desde aplicaciones Windows a servidores de red o incluso, páginas web. Es un lenguaje interpretado, lo que significa que no se necesita compilar el código fuente para poder ejecutarlo, lo que ofrece ventajas como la rapidez de desarrollo e inconvenientes como una menor velocidad.
@@ -67,7 +68,7 @@ Dispone de muchas funciones incorporadas en el propio lenguaje, para el tratamie
 - **Sintaxis clara**
 
 Por último, destacar que Python tiene una sintaxis muy visual, gracias a una notación identada (con márgenes) de obligado cumplimiento. En muchos lenguajes, para separar porciones de código, se utilizan elementos como las llaves o las palabras clave begin y end. Para separar las porciones de código en Python se debe tabular hacia dentro, colocando un margen al código que iría dentro de una función o un bucle. Esto ayuda a que todos los programadores adopten unas mismas notaciones y que los programas de cualquier persona tengan un aspecto muy similar.
-# img py
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/py.png)
 
 ### RASPBERRY Y PINES GPIO
 La Raspberry Pi es una computadora de bajo costo y con un tamaño compacto, del porte de una tarjeta de crédito, puede ser conectada a un monitor de computador o un TV, y usarse con un mouse y teclado estándar. Es un pequeño computador que correo un sistema operativo linux capaz de permitirle a las personas de todas las edades explorar la computación y aprender a programar lenguajes como Scratch y Python. Es capaz de hacer la mayoría de las tareas típicas de un computador de escritorio, desde navegar en internet, reproducir videos en alta resolución, manipular documentos de ofimática, hasta reproducir juegos.
@@ -75,10 +76,10 @@ La Raspberry Pi es una computadora de bajo costo y con un tamaño compacto, del 
 Además la Raspberry Pi tiene la habilidad de interactuar con el mundo exterior, puede ser usada en una amplia variedad de proyectos digitales, desde reproductores de música y video, detectores de padres, estaciones meteorológicas hasta cajas de aves con cámaras infrarrojas. Queremos que veas que la Raspberry Pi puede ser usada por niños y adultos por todas partes del mundo, para aprender a programar y entender cómo funcionan las computadoras.
 
 General Purpose Input Output (GPIO) es un sistema de entrada y salida de propósito general, es decir, consta de una serie de pines o conexiones que se pueden usar como entradas o salidas para múltiples usos. Estos pines están incluidos en todos los modelos de Raspberry Pi aunque con diferencias.
-# img GPIO pi2
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/GPIO%20pi2.png)
 
 Hay que tener en cuenta que dependiendo del modelo de la Raspberry Pi encontramos una cantidad de pines diferentes, por ejemplo, en la versión 1 de Raspberry Pi se tienen 26 pines GPIO mientras que a partir de la versión 2 de Raspberry Pi el número de pines aumentó a 40. Sin embargo, la compatibilidad es total, puesto que los 26 primeros pines mantienen su función original.
-# img GPIO Pi A-B
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/GPIO%20Pi%20A-B.png)
 
 Como se puede observar, el número de pines pasó de 26 a 40 para tener más disponibilidad, aunque volvemos a comentar que los 26 primeros pines son comunes para todas las versiones. Los pines GPIO tienen funciones específicas (aunque algunos comparten funciones) y se pueden agrupar de la siguiente manera:
 - Amarillo (2): Alimentación a 3.3V.
@@ -94,7 +95,7 @@ Existen 2 formas de numerar los pines de la Raspberry Pi, en modo GPIO o en modo
 
 - En el modo GPIO, los pines se numeran de forma física por el lugar que ocupan en la placa (representados por el color gris) viene siendo igual para todas las versiones (comenzamos a contar desde arriba a la izquierda y finalizamos abajo a la derecha).
 - En el modo BCM, los pines se numeran por la correspondencia en el chip Broadcom (que es la CPU de la Raspberry Pi).
-# img Rasp pi2 gpio
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/Rasp%20pi2%20gpio.jpg)
 
 De los pines GPIO disponibles, hay una serie de pines con capacidad de PWM (como volveremos más adelante). Sin ambargo no se dispone de ningún convertidor de analógico a digital. Esto quiere decir que para medir valores de sensores analógicos necesitaremos utilizar un convertidor externo o un Arduino en la mayoría de los casos.
 
@@ -103,7 +104,7 @@ De los pines GPIO disponibles, hay una serie de pines con capacidad de PWM (como
 - Diagramas de bloques.
 - Diagramas UML. (casos de uso-clase)
 - Diagramas eléctricos.
-- Diagramas esquemáticos....
+- Diagramas esquemáticos.
 
 
 ## 6. LISTA DE COMPONENTES
@@ -113,6 +114,11 @@ De los pines GPIO disponibles, hay una serie de pines con capacidad de PWM (como
 
 
 ## 8.EXPLICACIÓN DEL CODIGO FUENTE
+### Node-RED HMI
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/N-R%20.png)
+
+### Calculadora Científica
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/Calcu.png)
 
 
 ## 9. DESCRIPCIÓN DE PREREQUISITOS Y CONFIGURACIÓN
@@ -131,6 +137,7 @@ Se diseño una calculadora científica en Python empleando los conceptos de prog
 
 
 ## 13. CRONOGRAMA
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/cronograma.png)
 
 
 ## 14. BIBLIOGRAFIA
