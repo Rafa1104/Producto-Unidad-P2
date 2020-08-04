@@ -134,4 +134,9 @@ Se diseño una calculadora científica en Python empleando los conceptos de prog
 
 
 ## 14. BIBLIOGRAFIA
+- Pi, R. (2015). Raspberry pi 3 model b. online].(https://www.raspberrypi.org)
+- GPIO - Raspberry Pi Documentation. (s. f.). Raspberry Pi. Recuperado 2 de agosto de 2020, de https://www.raspberrypi.org/documentation/usage/gpio/
+- Python Software Foundation. (s. f.). Python.org. Recuperado 2 de agosto de 2020, de https://www.python.org/psf/
+- About : Node-RED. (s. f.). Node-RED. Recuperado 2 de agosto de 2020, de https://nodered.org/about/
+- node-red-dashboard. (s. f.). Node-RED. Recuperado 2 de agosto de 2020, de https://flows.nodered.org/node/node-red-dashboard
 
