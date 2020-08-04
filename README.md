@@ -126,9 +126,17 @@ No tiene un diagrama correspondiente ya que solo se genero una interfaz.
 ## 7. MAPA DE VARIABLES
 | **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
 | :---: | :---: | :---: |
-|  |  |
-|  |  | 
-|  |  |
+| number1 | float | primer valor que interviene en una operación matemática |
+| number2 | float | segundo valor que interviene en una operación matemática |
+| msg | float | ingresado por teclado |
+| number | float | valor que interviene en una operación matemática |
+| nmop | string | nombre de la operación seleccionada |
+| opt | int | núumero de operación |
+| pinState | int | variable auxiliar |
+| num1 | float | el primer valor ingresado por teclado |
+| num2 | float | el segundo valor ingresado por teclado |
+| resultado | string | muestra la operación y el resultado que se ha realizado |
+| num | float | valor ingresado por teclado |
 
 
 ## 8.EXPLICACIÓN DEL CODIGO FUENTE
