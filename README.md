@@ -111,9 +111,8 @@ De los pines GPIO disponibles, hay una serie de pines con capacidad de PWM (como
 No tiene un diagrama correspondiente ya que solo se genero una interfaz.
 
 ### *Calculadora Científica*
-
-***- Diagramas UML. (casos de uso-clase)***
-
+***- Diagramas UML.***
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/uml.png)
 
 
 ## 6. LISTA DE COMPONENTES
@@ -123,7 +122,13 @@ No tiene un diagrama correspondiente ya que solo se genero una interfaz.
 | Internet | Utlizar cualquier navegador que tengamos a disposición. |
 | Navegador | Simular los pines GPIO de la Raspberry Pi y Hacer uso de Node-RED y todos sus componentes. |
 
+
 ## 7. MAPA DE VARIABLES
+| **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
+| :---: | :---: | :---: |
+|  |  |
+|  |  | 
+|  |  |
 
 
 ## 8.EXPLICACIÓN DEL CODIGO FUENTE
