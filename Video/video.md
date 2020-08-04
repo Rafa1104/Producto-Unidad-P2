@@ -1,0 +1,1 @@
+[![Watch the video](https://github.com/Rafa1104/Trabajo-de-Investigacion-P2/blob/master/img/intro.png)](https://youtu.be/aIyUPdrpwho)
