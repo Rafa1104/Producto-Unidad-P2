@@ -130,6 +130,9 @@ De los pines GPIO disponibles, hay una serie de pines con capacidad de PWM (como
 
 
 ## 9. DESCRIPCIÓN DE PREREQUISITOS Y CONFIGURACIÓN
+Para el diseño de la interfaz es necesario instalar Node-RED en el equipo, seguir correctamente las instrucciones de instalación dependeinedo enque sistema operativo se lo trabaje, una vez instalado es necesario instalar dashbord una vez qu eya estemos en node-red ya que ese paquete nos va ayudar a hacer la interfaz ya que para las diferentes opciones que se necesiten se van a encontrar ahi.
+
+Para el diseño de la calculadora en el simullador de [*Create with code uk*](https://create.withcode.uk/) es necesario importar las librerias de math para las funciones matemáticas y la libreria RPi.GPIO que nos ayudar a simular los pines GPIO de una Raspberry Pi
 
 
 ## 10. APORTACIONES
@@ -142,7 +145,7 @@ Se diseño una calculadora científica en Python empleando los conceptos de prog
 
 
 ## 12. RECOMENDACIONES
-
+Como recomendaciones se tiene que ser muy cuidadoso al momento de escribir el codigo en python ya que si omitimos una letra o un signo, puede ocacionar errores al momento de ejecutar el simulador, el uso de puntos de control es recomendable al momento de escirbir cualquier codigo en diferentes lenguajes de programación ya que nos permite saber si en esa sección del codigo esta mal o esta bien.
 
 ## 13. CRONOGRAMA
 ![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/cronograma.png)
