@@ -1,4 +1,4 @@
-# Node-Red - Python
+# Node-RED - Python
 
 
 ## 1. PLANTEAMIENTO
