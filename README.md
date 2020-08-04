@@ -103,7 +103,7 @@ De los pines GPIO disponibles, hay una serie de pines con capacidad de PWM (como
 - Diagramas de bloques.
 - Diagramas UML. (casos de uso-clase)
 - Diagramas eléctricos.
-- Diagramas esquemáticos.
+- Diagramas esquemáticos....
 
 
 ## 6. LISTA DE COMPONENTES
