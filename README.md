@@ -107,24 +107,35 @@ De los pines GPIO disponibles, hay una serie de pines con capacidad de PWM (como
 
 
 ## 5. DIAGRAMAS
-- Diagramas de bloques.
-- Diagramas UML. (casos de uso-clase)
-- Diagramas eléctricos.
-- Diagramas esquemáticos.
+### *Node-RED:HMI*
+No tiene un diagrama correspondiente ya que solo se genero una interfaz.
+
+### *Calculadora Científica*
+
+***- Diagramas UML. (casos de uso-clase)***
+
 
 
 ## 6. LISTA DE COMPONENTES
-
+| **COMPONENTE** | **DESCRIPCIÓN** |
+| :---: | :---: |
+| Computadora | Sistema Operativo a decisión del usuario. |
+| Internet | Utlizar cualquier navegador que tengamos a disposición. |
+| Navegador | Simular los pines GPIO de la Raspberry Pi y Hacer uso de Node-RED y todos sus componentes. |
 
 ## 7. MAPA DE VARIABLES
 
 
 ## 8.EXPLICACIÓN DEL CODIGO FUENTE
-### Node-RED HMI
+### *Node-RED:HMI*
+Para la interfaz HMI se uso diferentes nodos, como botones, ingresar texto, lista de opciones,  gráficos los cuales pueden ser: barras - lineales - pastel, tambien nodos de calibre, un switch, incluso la posibilida de escoger una tonalidad de color en una paleta de colores que esta a disposición; para poder visualizar nustra interfaz añadimos las letras */ui* a la IP que estamos trabajando en una nueva ventana.
 
 ![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/N-R%20.png)
 
-### Calculadora Científica
+### *Calculadora Científica*
+La calculadora usando los pines GPIO para definir la operacion que se va a realizar, se uso la libreria correspondiente para el manejo de los pines, la libreria math para las funciones matematicas, tambine una libreria time.
+Al ejecutar el programa nos aparece los todos los pines GPIO en color verde, sigido de una lista el cual nos muestra la operación que realiza un pin, si el pin seleccionado esta dentro de la lista de opciones se puede seguir con la operación que queramos hacer, pero si el pin no esta dentro de la lista, va a aprecer un mensaje de que la operacón no esta disponible y que debe de ingresar nuevamente el pin.
+Una vez escogido el pin dentro de las opciones disponibles, nos va a pedir un valor para x o y dependiendo la operación a realizar, al ingresar los valores nos muestra la operacion que hicimos con su respectivo resultado y el program finaliza.
 
 ![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/calcu.%20cien.png)
 
@@ -146,6 +157,7 @@ Se diseño una calculadora científica en Python empleando los conceptos de prog
 
 ## 12. RECOMENDACIONES
 Como recomendaciones se tiene que ser muy cuidadoso al momento de escribir el codigo en python ya que si omitimos una letra o un signo, puede ocacionar errores al momento de ejecutar el simulador, el uso de puntos de control es recomendable al momento de escirbir cualquier codigo en diferentes lenguajes de programación ya que nos permite saber si en esa sección del codigo esta mal o esta bien.
+
 
 ## 13. CRONOGRAMA
 ![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/cronograma.png)
