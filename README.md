@@ -147,7 +147,12 @@ Para el diseño de la calculadora en el simullador de [*Create with code uk*](ht
 
 
 ## 10. APORTACIONES
+### *Node-RED:HMI*
+Como aporte se hice uso de la interfaz para simular varios casos como de temperatura y el niver de agua, con ayuda de slider que nos permite controlar el valor de temperauta y el nivel de agua, tambien se le añadio que el valor que corresponde a la temperatura y nivel del agua se pueda mostrar en un text.
+Se hizo uso de graficos que por medio de barras, pastel, y lineas continuas como puede valores ir creciendo o decreciendo respectivo al tiempo.
 
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/aport%201.png) 
+![](https://github.com/Rafa1104/Producto-Unidad-P2/blob/master/img/aport%202.png)
 
 ## 11. CONCLUSIONES
 Se diseño un programa en NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina).
